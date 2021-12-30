@@ -6,8 +6,6 @@ services:
       - 8080
     labels:
       app: gui
-    volumes:
-      tpm:/var/lib/tpm
     
 endpoints:
   ubuntu:
