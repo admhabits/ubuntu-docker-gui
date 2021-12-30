@@ -7,7 +7,7 @@ services:
     labels:
       app: gui
     volumes:
-      disk:/var/lib/tpm
+      tpm:/var/lib/tpm
     
 endpoints:
   ubuntu:
@@ -15,4 +15,4 @@ endpoints:
      service: ubuntu
      port: 8080
 volumes:
-  disk:
+  tmp:
