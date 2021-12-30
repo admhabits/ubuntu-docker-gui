@@ -1,4 +1,6 @@
 name: ubuntu
 command: bash
+sync:
+  .:/app
 forward:
   -"8080:8080"
