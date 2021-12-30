@@ -1,0 +1,4 @@
+name: ubuntu
+command: bash
+forward:
+  -"8080:8080"
